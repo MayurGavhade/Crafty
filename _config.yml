@@ -1,6 +1,9 @@
+title: Crafty Extension
+description: AI-powered Chrome extension for long-form writing
 theme: jekyll-theme-cayman
 
-title: Crafty
-description: Privacy-first AI writing Chrome extension using DeepSeek
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
 
-show_downloads: true
+show_downloads: false
