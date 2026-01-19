@@ -1,7 +1,6 @@
-title: Crafty Extension
-description: AI-powered Chrome extension for long-form writing
+title: Crafty
+description: Modern AI Writing Chrome Extension
 theme: jekyll-theme-cayman
-
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
