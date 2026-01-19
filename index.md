@@ -106,8 +106,8 @@ body {
   <h1>✨ Crafty</h1>
   <p>AI-powered long-form writing, right inside your Chrome sidebar</p>
 
-  <a class="btn-download" href="crafty.zip">
-    ⬇ Download Crafty Extension
+  <a class="btn-download" href="/Crafty/crafty.zip">
+  ⬇ Download Crafty Extension
   </a>
 </div>
 
