@@ -25,7 +25,6 @@ body {
   max-width: 1100px;
 }
 
-/* HERO */
 .hero {
   text-align: center;
   padding: 4.5rem 1rem 3rem;
@@ -60,12 +59,10 @@ body {
   box-shadow: 0 0 35px rgba(56, 189, 248, 0.6);
 }
 
-/* SECTIONS */
 .section {
   margin-top: 4.5rem;
 }
 
-/* CARDS */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -87,18 +84,11 @@ body {
   box-shadow: var(--glow);
 }
 
-.card h3 {
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-}
-
-/* INSTALL */
 .steps li {
   margin-bottom: 0.7rem;
   color: var(--muted);
 }
 
-/* FOOTER */
 .footer {
   margin-top: 5rem;
   text-align: center;
@@ -121,67 +111,48 @@ body {
   </a>
 </div>
 
----
+<div class="section">
+  <h2>🚀 Why Crafty?</h2>
 
-## 🚀 Why Crafty?
+  <div class="cards">
+    <div class="card">
+      <h3>✍ Long Writing</h3>
+      <p>Generate rich paragraphs and descriptions in seconds.</p>
+    </div>
 
-<div class="cards">
-  <div class="card">
-    <h3>✍ Long Writing</h3>
-    <p>Generate rich paragraphs and descriptions in seconds.</p>
-  </div>
+    <div class="card">
+      <h3>🎚 Tone Selector</h3>
+      <p>Professional, casual, creative, or technical output.</p>
+    </div>
 
-  <div class="card">
-    <h3>🎚 Tone Selector</h3>
-    <p>Professional, casual, creative, or technical output.</p>
-  </div>
+    <div class="card">
+      <h3>🌙 Dark Mode</h3>
+      <p>Automatically matches your system theme.</p>
+    </div>
 
-  <div class="card">
-    <h3>🌙 Dark Mode</h3>
-    <p>Automatically matches your system theme.</p>
-  </div>
-
-  <div class="card">
-    <h3>🔐 Privacy First</h3>
-    <p>Your API key never leaves your browser.</p>
+    <div class="card">
+      <h3>🔐 Privacy First</h3>
+      <p>Your API key never leaves your browser.</p>
+    </div>
   </div>
 </div>
 
----
+<div class="section">
+  <h2>📦 Installation Guide</h2>
 
-## 📦 Installation Guide
-
-<ol class="steps">
-  <li>Download <strong>crafty.zip</strong></li>
-  <li>Extract the ZIP file</li>
-  <li>Open <code>chrome://extensions</code></li>
-  <li>Enable <strong>Developer Mode</strong></li>
-  <li>Click <strong>Load unpacked</strong></li>
-  <li>Select the extracted Crafty folder</li>
-</ol>
-
----
-
-## 👤 About the Developer
-
-<div class="card">
-  <h3>Mayur (Mayur Dev)</h3>
-  <p>
-    Student developer building AI-powered and privacy-friendly tools.
-  </p>
-  <p>
-    📺 YouTube:
-    <a href="https://youtube.com/@mayur-developer" target="_blank">
-      youtube.com/@mayur-developer
-    </a>
-    <br>
-    💻 GitHub:
-    <a href="https://github.com/mayurgavhade" target="_blank">
-      github.com/mayurgavhade
-    </a>
-  </p>
+  <ol class="steps">
+    <li>Download <strong>crafty.zip</strong></li>
+    <li>Extract the ZIP file</li>
+    <li>Open <code>chrome://extensions</code></li>
+    <li>Enable <strong>Developer Mode</strong></li>
+    <li>Click <strong>Load unpacked</strong></li>
+    <li>Select the extracted Crafty folder</li>
+  </ol>
 </div>
 
-<div class="footer">
-  © 2026 Crafty Extension • Built by Mayur Dev
-</div>
+<div class="section">
+  <h2>👤 About the Developer</h2>
+
+  <div class="card">
+    <h3>Mayur (Mayur Dev)</h3>
+    <p>Student developer building AI-powered
